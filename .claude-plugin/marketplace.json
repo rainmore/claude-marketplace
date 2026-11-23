@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rainmore-marketplace",
+  "owner": {
+    "name": "Felix Rong"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace for team coding conventions and skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "java-spring",
+      "source": "./plugins/java-spring",
+      "description": "Skills for Java and Spring development: conventions, unit and integration tests, QueryDSL data access, DB job queues, configuration, and MapStruct.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": [
+        "java",
+        "spring",
+        "spring-boot",
+        "junit",
+        "testing",
+        "querydsl",
+        "postgresql",
+        "testcontainers"
+      ]
+    }
+  ]
+}
